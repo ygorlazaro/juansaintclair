@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+Body { margin:0; padding:0; height:100%; width:100%; background-color:#469bfa;font-family:Arial, Helvetica, sans-serif; font-size:11px; }
+hr { border-bottom:1px solid #FFF; border-top:1px solid #c8c8c8; border-left:0; border-right:0; }
+
+/* Conteúdo */
+#conteudo { width:779px; margin-left:auto; margin-right:auto;}
+	#site_topo { height:314px;}
+	#bg_topo { background-image:url(../img/fundo.png); background-repeat:repeat; position:absolute; width:822px; height:558px; z-index:1; margin-left:-43px; }
+	#posicao_logo { position:absolute; top:242px; left:90px; }
+		#posicao_logo img { padding-bottom:5px;}
+	
+	#absolute_top {position:absolute; z-index:2; top:314px;}
+	
+	#img_topo_dir { float:right; margin-top:142px; margin-right:20px;}
+	
+	#nuvem { position:absolute; z-index:3; top:12px; left:170px;  }
+			#nuvem a:link { text-decoration:none; border:0;  }
+	
+	#img_topo_conteudo { background-image:url(../img/topo_conteudo.png); height:23px; width:779px; background-repeat:no-repeat;}
+	#img_bottom_conteudo { background-image:url(../img/bottom_conteudo.png); height:23px; width:779px; background-repeat:no-repeat;}
+	#site_conteudo { background-image:url(../img/site_conteudo.png); width:779px; height:100%;  background-repeat:repeat-y; }
+	#texto_conteudo { padding-left:10px;}
+	#copyright {text-align:center;width:779px; background-image:url(../img/site_conteudo.png);  }
+
+	/* Post */
+
+	#texto_centro { float:left; width:467px; margin-left:10px;}
+		#post_top {}
+			.foto_post { float:left; width:98px; height:56px;}
+			.titulo_post { float:left; margin-left:10px; padding-top:9px; width:359px; }
+				.titulo_post strong { font-size:16px; font-weight:bold; color:#1159c7;}
+			 .enviado { font-size:10px; float:right; margin:0;}
+			 	.enviado a:link { color:#005a0d; text-decoration:underline;}
+				.enviado a:visited { color:#005a0d; text-decoration:underline;}
+				.enviado a:hover { color:#1159c8; text-decoration:underline;}
+		.conteudo_post { padding-top:15px; text-align:justify; margin-bottom:10px;}
+		.comentarios { background-image:url(../img/fundo_coment.jpg); width:467px; height:19px; margin-top:5px; background-repeat:no-repeat; margin-bottom:25px;text-align:right; font-size:10px; padding-top:3px; color:#FFF;}
+		.comentarios a:link { text-decoration:none; color:#FFF;}
+		.comentarios a:visited { text-decoration:none; color:#FFF;}
+		.comentarios a:hover { text-decoration:underline; color:#FFF;}
+		
+		.img_comentarios { float:left; margin-left:355px;}	
+
+	/* Conteúdo Direita */
+		#conteudo_direita { float:right; margin-right:5px;}
+			#ultimosposts_cima { background-image:url(../img/topo_box_dir.jpg); width:251px; height:13px;}
+			#ultimosposts_meio { background-image:url(../img/middle_box_dir.jpg); width:251px; padding-left:10px; background-repeat:repeat-y; }
+			#ultimosposts_bottom { background-image:url(../img/bottom_box_dir.jpg); margin-left:1px; width:251px; height:13px;}
+			#ultimosposts_noticias { padding-bottom:5px;}
+			
+			.clb { clear:both;}
+			
+		/* Lavalamp */
+		                   .lavaLampBottomStyle {
+            position: relative;          
+            padding: 20px;
+			padding-top:0;
+            margin: 0;
+            overflow: hidden;
+        }
+                .lavaLampBottomStyle li {
+                    float: left;
+                    list-style: none;
+                }
+                    .lavaLampBottomStyle li.back {
+                        /*border-bottom: 3px solid #1159c8;*/
+						/*border:3px solid #1159c8; */
+						 background-color:#FFF; 						                     
+						width: 5px;
+                        height: 23px; margin-top:4px;
+						/* width: 9px;height: 29px;*/ 
+                        z-index: 8;
+                        position: absolute;
+						filter:alpha(opacity=30);-moz-opacity:.30;opacity:.30;
+                    }
+					
+                    .lavaLampBottomStyle li a {
+                        font: bold 14px arial;
+                        text-decoration: none;
+                        color: #FFF;
+                        outline: none;
+                        text-align: center;
+                        top: 8px;
+                        
+                        letter-spacing: 0;
+                        z-index: 10;
+                        display: block;
+                        float: left;
+                        height: 20px;
+                        position: relative;
+                        overflow: hidden;
+                        margin: auto 15px;
+                    }   
+                        .lavaLampBottomStyle li a:hover, .lavaLampBottomStyle li a:active, .lavaLampBottomStyle li a:visited {
+                            border: none;
+                        }   
+			
